@@ -18,11 +18,14 @@
 
         /* Estilos para o cabeçalho */
         header {
-            background-color: #ff0000; /* Vermelho */
-            padding: 20px;
-            text-align: center;
-        }
-
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #ff0000; /* Cor de fundo do cabeçalho */
+            padding: 20px; /* Espaçamento interno do cabeçalho */
+            z-index: 100; /* Certifica-se de que o cabeçalho está na frente de outros elementos */
+}
         h1 {
             font-size: 36px;
             margin: 0;
@@ -81,7 +84,13 @@
             text-align: center;
         }
         
-
+         .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            max-width: 100px; /* Largura máxima da logo */
+        }
+        
         .bcompra {
             background-color: transparent; /* Define o fundo do botão como transparente */
             border: none; /* Remove a borda do botão */
@@ -103,9 +112,7 @@
 <body>
     <header>
         <h1>Bem-vindo à nossa Loja de Computadores Gamer!</h1>
-        <script>
-           alert('Hello, world!')
-        </script>   
+        <img class="logo" src="logo.png" alt="Logo da Loja">
     </header>
     
     <div class="barra-de-produtos">
