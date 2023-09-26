@@ -1,0 +1,9 @@
+id,Categoria,Marca,Modelo,Processador/GPU/Memória/Armazenamento,Especificações,imagens
+1,Processadores (CPUs),Intel,Intel Core i7-10700K,Processador,"Frequência: 3.8 GHz (4.7 GHz Turbo), Núcleos: 8, Threads: 16, Cache: 16 MB, Soquete: LGA 1200",1.jpg
+2,Processadores (CPUs),AMD,AMD Ryzen 9 5900X,Processador,"Frequência: 3.7 GHz (4.8 GHz Turbo), Núcleos: 12, Threads: 24, Cache: 70 MB, Soquete: AM4",2.jpg
+3,Placas de Vídeo (GPUs),NVIDIA,NVIDIA GeForce RTX 3080,Placa de Vídeo,"Arquitetura: Ampere, Núcleos CUDA: 8704, VRAM: 10 GB GDDR6X, Interface: PCIe 4.0 x16","3,jpg"
+4,Placas de Vídeo (GPUs),AMD,AMD Radeon RX 6800 XT,Placa de Vídeo,"Arquitetura: RDNA 2, Núcleos Compute: 4608, VRAM: 16 GB GDDR6, Interface: PCIe 4.0 x16",4.png
+5,Memória RAM,Corsair,Corsair Vengeance LPX 16GB,Memória RAM,"Capacidade: 16 GB (2x8 GB), Tipo: DDR4, Frequência: 3200 MHz, Latência: CL16, Voltagem: 1.35V",5.jpg
+6,Memória RAM,Kingston,Kingston HyperX Fury 32GB,Memória RAM,"Capacidade: 32 GB (2x16 GB), Tipo: DDR4, Frequência: 3200 MHz, Latência: CL16, Voltagem: 1.35V",6.jpg
+7,Armazenamento (SSDs),Samsung,Samsung 970 EVO 1TB,SSD,"Capacidade: 1 TB, Tipo: NVMe M.2, Leitura Sequencial: até 3,500 MB/s, Escrita Sequencial: até 2,500 MB/s",7.jpg
+8,Armazenamento (SSDs),Western Digital,WD Blue 500GB,SSD,"Capacidade: 500 GB, Tipo: SATA 2.5, Leitura Sequencial: até 545 MB/s, Escrita Sequencial: até 425 MB/s",8.jpg

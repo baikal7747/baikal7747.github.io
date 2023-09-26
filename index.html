@@ -8,11 +8,11 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background-image: url('fundo_do_site.jpg');
+            background-image: url('fundo_do_site.jpeg');
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-position: center;
+            background-position: fixed;
             color: #ff0;
         }
 
@@ -42,6 +42,8 @@
             font-size: 18px;
             color: #fff;
         }
+        
+      
 
         /* Estilos para a seção de produtos */
         section {
@@ -79,9 +81,17 @@
             text-align: center;
         }
         
-        /* cor do botão de compra */
+
         .bcompra {
-            background-color: #00ff00; /* Verde */
+            background-color: transparent; /* Define o fundo do botão como transparente */
+            border: none; /* Remove a borda do botão */
+            cursor: pointer;
+            background-image: url('botao-compra.gif'); /* Define o GIF como imagem de fundo */
+            background-size: cover; /* Ajusta o tamanho do GIF ao botão */
+            color: transparent; /* Torna o texto do botão transparente */
+            width: 200px; /* Define a largura do botão (ajuste conforme necessário) */
+            height: 50px; /* Define a altura do botão (ajuste conforme necessário) */
+            text-align: center;
         }
 
         footer p {
@@ -93,6 +103,9 @@
 <body>
     <header>
         <h1>Bem-vindo à nossa Loja de Computadores Gamer!</h1>
+        <script>
+           alert('Hello, world!')
+        </script>   
     </header>
     
     <div class="barra-de-produtos">
