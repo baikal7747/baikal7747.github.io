@@ -1,163 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <title>Loja de Computadores Gamer</title>
-    <style>
-        /* Estilos para o corpo da página */
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-image: url('fundo_do_site.jpeg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: fixed;
-            color: #ff0;
-        }
-
-        /* Estilos para o cabeçalho */
-        header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background-color: #ff0000; /* Cor de fundo do cabeçalho */
-            padding: 20px; /* Espaçamento interno do cabeçalho */
-            z-index: 100; /* Certifica-se de que o cabeçalho está na frente de outros elementos */
-}
-        h1 {
-            font-size: 36px;
-            margin: 0;
-            color: #fff;
-        }
-
-        /* Estilos para a barra de produtos em destaque */
-        .barra-de-produtos {
-            background-color: #ff0000; /* Vermelho */
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        .produto-destaque {
-            display: inline-block;
-            margin: 0 10px;
-            font-size: 18px;
-            color: #fff;
-        }
-        
-      
-
-        /* Estilos para a seção de produtos */
-        section {
-            text-align: center;
-            padding: 20px;
-        }
-
-        .produto {
-            display: inline-block;
-            margin: 20px;
-            background-color: rgba(255, 0, 0, 0.2); /* Vermelho com transparência */
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-        }
-
-        .produto img {
-            max-width: 100%;
-        }
-
-        h2 {
-            font-size: 24px;
-            color: #ff0000; /* Vermelho */
-        }
-
-        p {
-            font-size: 18px;
-            color: #fff;
-        }
-
-        /* Estilos para o rodapé */
-        footer {
-            background-color: #ff0000; /* Vermelho */
-            padding: 10px 0;
-            text-align: center;
-        }
-        
-         .logo {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            max-width: 100px; /* Largura máxima da logo */
-        }
-        
-        .bcompra {
-            background-color: transparent; /* Define o fundo do botão como transparente */
-            border: none; /* Remove a borda do botão */
-            cursor: pointer;
-            background-image: url('botao-comprar.gif'); /* Define o GIF como imagem de fundo */
-            background-size: cover; /* Ajusta o tamanho do GIF ao botão */
-            color: transparent; /* Torna o texto do botão transparente */
-            width: 200px; /* Define a largura do botão (ajuste conforme necessário) */
-            height: 50px; /* Define a altura do botão (ajuste conforme necessário) */
-            text-align: center;
-        }
-
-        footer p {
-            margin: 0;
-            color: #fff;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Bem-vindo à nossa Loja de Computadores Gamer!</h1>
-        <img class="logo" src="logo.png" alt="Logo da Loja">
-    </header>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojinha Gamer</title>
+    <script type="module" crossorigin src="/assets/index-fcb3cd86.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
     
-    <div class="barra-de-produtos">
-        <span class="produto-destaque">Produto em Destaque 1</span>
-        <span class="produto-destaque">Produto em Destaque 2</span>
-        <span class="produto-destaque">Produto em Destaque 3</span>
-    </div>
-
-    <section>
-        <!-- Produto 1 -->
-        <div class="produto">
-            <img src="produto1.png" alt="PC Gamer Completo Mancer">
-            <h2>PC Gamer Completo Mancer, AMD Ryzen 5 4600G, 16GB DDR4, SSD 480GB, Monitor 21", Cadeira Gamer Heron + WI-FI</h2>
-            <p>Desfrute da melhor experiência de jogo com este PC Gamer completo da Mancer, equipado com um processador AMD Ryzen 5 4600G, 16GB de memória DDR4, SSD de 480GB, um monitor de 21 polegadas e uma cadeira gamer Heron. Além disso, inclui uma conexão WI-FI.</p>
-            <p>Preço: R$ 5.000,00</p>
-            <button class="bcompra"><a href="compra_produto1.html">Comprar Agora</a></button>
-        </div>
-
-        <!-- Produto 2 -->
-        <div class="produto">
-            <img src="produto2.png" alt="PC Gamer Completo Mancer">
-            <h2>PC Gamer Completo Mancer, AMD Ryzen 5 4600G, Vega 7, 16GB DDR4, SSD 480GB, Fonte 500W 80 Plus + WIFI</h2>
-            <p>Obtenha um desempenho excepcional com este PC Gamer completo da Mancer, equipado com um processador AMD Ryzen 5 4600G e placa gráfica Vega 7, 16GB de memória DDR4, SSD de 480GB e uma fonte de 500W 80 Plus. Ele também inclui uma conexão WI-FI para jogos online sem interrupções.</p>
-            <p>Preço: R$ 6.000,00</p>
-            <button class="bcompra"><a href="compra_produto2.html">Comprar Agora</a></button>
-        </div>
-
-        <!-- Novo produto adicionado -->
-        <div class="produto">
-            <img src="imagem_produto3.jpg" alt="Novo Produto Mancer">
-            <h2>Pc Gamer Ryzen 7 5700x Ssd 1tb, 32gb Rtx 3060 12gb + Monitor</h2>
-            <p>
-               Marca :Tech Power
-               Modelo: PC Gamer
-               Processador: Ryzen 7 5700X
-               Disco rígido: 1 TB.
-               </p>
-            <p>Preço: R$ 9.000,00</p>
-            <button class="bcompra"><a href="comprar_produto3.html">Comprar Agora</a></button>
-        </div>
-    </section>
-    
-    <footer>
-        <p>&copy; 2023 Loja de Computadores Gamer</p>
-    </footer>
-</body>
+  </body>
 </html>
-
